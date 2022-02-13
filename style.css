@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d5cdc4;
+  font-size: 200px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d5cdc4;
+  font-size: 70px;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d5cdc4;
+  font-size: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  color: #d5cdc4;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em;
+}
+
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d5cdc4;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em;
+}
+
+h6 {
+  font-family: 'Gideon Roman';
+  color: #d5cdc4;
+  font-size: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 3em;
+}
+
+.container {
+  height: 100vh;
+  padding: 10rem;
+}
+.transition-up {
+  animation: textTransition 0.4s;
+}
+.main {
+  background-color: #111114;
+}
+.double {
+  background-color: #41443e;
+}
+.triple {
+  background-color: #88837c;
+}
+
+@keyframes textTransition {
+  0% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.test2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+a {
+  transition: 0.3s;
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  margin-top: 1rem;
+  color: #e6e0e0;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  margin-right: 40%;
+}
+
+.test {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  width: 300px;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+.test2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes slide {
+  20% {
+    margin-left: 0px;
+  }
+  30% {
+    margin-left: -728px;
+  }
+  50% {
+    margin-left: -728px;
+  }
+  60% {
+    margin-left: -1456px;
+  }
+  70% {
+    margin-left: -1456px;
+  }
+  80% {
+    margin-left: -2184px;
+  }
+  90% {
+    margin-left: -2184px;
+  }
+}
