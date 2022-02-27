@@ -70,15 +70,6 @@ h6 {
   background-color: #88837c;
 }
 
-@keyframes textTransition {
-  0% {
-    transform: translateY(-200px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
 .test2 {
   display: block;
   margin-left: auto;
@@ -120,60 +111,49 @@ p {
   margin-right: 40%;
 }
 
-.test {
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-  width: 300px;
-}
-
 body {
   font-family: Helvetica, sans-serif;
 }
 
-#slideshow {
-  overflow: hidden;
-  height: 510px;
-  width: 728px;
-  margin: 0 auto;
-}
-
-.slide-wrapper {
-  width: 2912px;
-  animation: slide 18s ease infinite;
-}
-
-.slide {
-  float: left;
-  height: 510px;
-  width: 728px;
-}
-.test2 {
+.image2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-attachment: fixed;
 }
 
-@keyframes slide {
-  20% {
-    margin-left: 0px;
+.image3 {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  height: 100px;
+  width: 5%;
+}
+
+.image4 {
+  width: 320px;
+  position: absolute;
+  left: 16px;
+}
+
+.image5 {
+  width: 400px;
+  position: absolute;
+  right: 16px;
+}
+
+.image6 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+@keyframes textTransition {
+  0% {
+    transform: translateY(-200px);
   }
-  30% {
-    margin-left: -728px;
-  }
-  50% {
-    margin-left: -728px;
-  }
-  60% {
-    margin-left: -1456px;
-  }
-  70% {
-    margin-left: -1456px;
-  }
-  80% {
-    margin-left: -2184px;
-  }
-  90% {
-    margin-left: -2184px;
+  100% {
+    transform: translateY(0);
   }
 }
