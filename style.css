@@ -5,14 +5,10 @@
 }
 
 .WebContainer{
-    width: 100%;
-    height: auto;
+    width:100%;
+    min-width:1000px;
+    height:auto;
 }
-.articles{
-    width:90%; /*Takes 90% width from WebContainer*/
-    height: auto;
-    margin: auto;
-} 
 
 h1 {
   font-family: Arial, Helvetica, sans-serif;
@@ -74,7 +70,7 @@ h6 {
   background-color: #111114;
 }
 .double {
-  background-color: #000000;
+  background-color: rgb(255, 2, 2);
 }
 .triple {
   background-color: #335145;
