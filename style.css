@@ -4,6 +4,16 @@
   padding: 0;
 }
 
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
+
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: #d5cdc4;
