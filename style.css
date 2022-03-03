@@ -4,12 +4,6 @@
   padding: 0;
 }
 
-.WebContainer{
-    width:100%;
-    min-width:1000px;
-    height:auto;
-}
-
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: #d5cdc4;
@@ -70,7 +64,7 @@ h6 {
   background-color: #111114;
 }
 .double {
-  background-color: rgb(255, 2, 2);
+  background-color: #335145;
 }
 .triple {
   background-color: #335145;
