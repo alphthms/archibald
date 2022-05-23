@@ -42,7 +42,7 @@ h3 {
 h4 {
   font-family: 'Roboto', sans-serif;
   color: #d5cdc4;
-  font-size: 40px;
+  font-size: 35px;
   margin-left: auto;
   margin-right: auto;
   width: 15em;
@@ -66,6 +66,13 @@ h6 {
   width: 3em;
 }
 
+h8 {
+  font-family: 'Gideon Roman';
+  color: #d5cdc4;
+  font-size: 180px;
+  width: 15em;
+}
+
 .container {
   height: 100vh;
   padding: 10rem;
@@ -77,8 +84,7 @@ h6 {
   background-color: #111114;
 }
 .double {
-  background-color: #3e3831;
-  background-color: #44433e;
+  background-color: #00517c;
 }
 .triple {
   background-color: #88837c;
@@ -160,7 +166,16 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: top right;
   width: 400px;
+}
+
+.image7 {
+  display: block;
+  margin-left: auto;
+  width: 400px;
+  margin-inline-start: 80%;
+  margin-top: 19%;
 }
 
 @keyframes textTransition {
