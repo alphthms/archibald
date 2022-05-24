@@ -69,8 +69,14 @@ h6 {
 h8 {
   font-family: 'Gideon Roman';
   color: #d5cdc4;
-  font-size: 180px;
+  font-size: 80px;
   width: 15em;
+}
+
+h9 {
+   font-family: Arial, Helvetica, sans-serif;
+  color: #d5cdc4;
+  font-size: 100px;
 }
 
 .container {
@@ -287,3 +293,7 @@ body {
     opacity: 0;
   }
 }
+
+
+
+
