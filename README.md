@@ -3,4 +3,3 @@ https://alphthms.github.io/archibald
 
 School Royal Navy Project - Came Second 
 
-*Out of two teams
