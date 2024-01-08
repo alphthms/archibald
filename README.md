@@ -1,4 +1,4 @@
 ARCHIBALD - ROYAL NAVY PROJECT
 https://alphthms.github.io/archibald
 
-School Royal Navy Project (Came Second in the competition)
+School Royal Navy Project (2nd place)
